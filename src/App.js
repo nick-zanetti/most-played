@@ -122,7 +122,7 @@ class App extends Component {
     else if (!this.state.loggedIn) {
       return (<div className="App">
       <h2 className="init-title">Welcome!</h2>
-      <a href='http://localhost:8888'>
+      <a href='https://most-played-auth.herokuapp.com/'>
         <button>Login With Spotify</button>
   
         </a> 
