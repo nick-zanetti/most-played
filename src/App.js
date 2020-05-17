@@ -71,7 +71,7 @@ class App extends Component {
       })
   }
 
-  //Function to create an audio object using the track preview url provided by spotify api
+  //Function to create an audio object using the track preview url provided by spotify api adding some comments
   createAudioObject(url) {
       return new Audio(url)
   }
