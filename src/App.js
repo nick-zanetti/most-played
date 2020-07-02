@@ -88,7 +88,7 @@ class App extends Component {
       if (typeof track.preview_url === 'string') return <div className="track" key={track.id}
                 onMouseEnter={() => trackSample.play()}
                 onMouseLeave={() => trackSample.pause()}>
-                <li className="track-name"> {track.artists[0].name}: {track.name}</li>
+                <li className="track-name"> {track.artists[0].name}: {track.name}</li> 
                 <img className="images" src={ track.album.images[0].url } style={{ width:50 }}/>
             </div>   
     })
