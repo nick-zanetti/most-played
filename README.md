@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Most Played
+
+The most played app uses Spotify's web api to show the user their most played songs over three possible periods of time. 
 
 ## Available Scripts
 
